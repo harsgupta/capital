@@ -1,4 +1,4 @@
-FROM python:3.11.6-slim
+FROM python:3.13-rc-slim
 COPY app /capital/app
 COPY requirements.txt /capital
 COPY alembic.ini /capital
